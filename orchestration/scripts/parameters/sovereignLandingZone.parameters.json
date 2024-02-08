@@ -8,14 +8,14 @@
       "minLength": 2,
       "maxLength": 5,
       "defaultValue": "mcfs",
-      "value": null,
+      "value": "V24",
       "description": "Prefix added to all Azure resources created by the SLZ."
     },
     "parTopLevelManagementGroupName": {
       "type": "string",
       "usedBy": "all and bootstrap",
       "defaultValue": "Microsoft Cloud for Sovereignty",
-      "value": null,
+      "value": "Sovereign Landing Zone",
       "description": "The name of the top-level management group for the SLZ."
     },
     "parDeploymentSuffix": {
@@ -46,7 +46,7 @@
       "type": "string",
       "usedBy": "all and dashboard",
       "defaultValue": "Country/Region",
-      "value": null,
+      "value": "Bachelor i Azure Cloud Sovereignty",
       "description": "The name of the organization deploying the SLZ to brand the compliance dashboard appropriately."
     },
     "parDeploymentLocation": {
@@ -324,21 +324,21 @@
       "type": "string",
       "usedBy": "bootstrap, platform and dashboard",
       "defaultValue": null,
-      "value": null,
+      "value": "30ee9279-e76e-409d-8973-00c9792f6bcb",
       "description": "Optional management subscription ID when using an existing subscription."
     },
     "parIdentitySubscriptionId": {
       "type": "string",
       "usedBy": "bootstrap and platform",
       "defaultValue": null,
-      "value": null,
+      "value": "683886f5-1985-4666-a868-6e00a44de5bd",
       "description": "Optional identity subscription ID when using an existing subscription."
     },
     "parConnectivitySubscriptionId": {
       "type": "string",
       "usedBy": "bootstrap and platform",
       "defaultValue": null,
-      "value": null,
+      "value": "a169bee2-1ad9-42c1-b136-dec3c353dc28",
       "description": "Optional connectivity subscription ID when using an existing subscription."
     },
     "parDdosProtectionResourceId": {

@@ -39,7 +39,7 @@
       "usedBy": "all and bootstrap",
       "sampleValue": "Format for EA - /providers/Microsoft.Billing/BillingAccounts/{BillingAccountId}/enrollmentAccounts/{EnrollmentAccountId}",
       "defaultValue": null,
-      "value": null,
+      "value": "test",
       "description": "The full resource ID of billing scope associated to the EA, MCA or MPA account you wish to create the subscription in."
     },
     "parCustomer": {
@@ -53,7 +53,7 @@
       "type": "string",
       "usedBy": "all, platform, and dashboard",
       "defaultValue": null,
-      "value": null,
+      "value": "northeurope",
       "allowedValues": [
         "australiacentral",
         "australiacentral2",
@@ -116,7 +116,7 @@
       "type": "array",
       "usedBy": "all and compliance",
       "defaultValue": [],
-      "value": [],
+      "value": ["northeurope"],
       "allowedValues": [
         "australiacentral",
         "australiacentral2",
@@ -179,7 +179,7 @@
       "type": "array",
       "usedBy": "all and compliance",
       "defaultValue": [],
-      "value": [],
+      "value": ["northeurope"],
       "allowedValues": [
         "australiacentral",
         "australiacentral2",

@@ -1,0 +1,19 @@
+name: Run New_SovereignLandingZone.ps1
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+    branches:
+      - main  # Adjust this to your branch name
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use the appropriate runner environment
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run PowerShell script
+        shell: pwsh  # Specify the shell (PowerShell)
+        run: .\New_SovereignLandingZone.ps1
